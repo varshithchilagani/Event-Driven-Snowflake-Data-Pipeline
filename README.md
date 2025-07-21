@@ -17,7 +17,7 @@ This project builds an automated, event-driven data pipeline that fetches news a
 
 ## 📊 Architecture
 
-![Architecture Diagram](./architecture_diagram.png)
+![Architecture Diagram](./docs/architecture_diagram.png)
 
 ---
 
