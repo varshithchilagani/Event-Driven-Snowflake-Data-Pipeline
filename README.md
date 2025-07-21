@@ -17,5 +17,55 @@ This project builds an automated, event-driven data pipeline that fetches news a
 
 ## 📊 Architecture
 
-> (Diagram goes here – will be added under `/docs/architecture_diagram.png`)
+---
+
+## 📂 Folder Structure
+
+```
+event-driven-snowflake-data-pipeline/
+│
+├── dags/
+│ └── news_api_airflow_job.py # Airflow DAG file
+│
+├── scripts/
+│ └── fetch_news.py # API fetch and upload to S3
+│
+├── snowflake/
+│ └── snowflake_commands.sql # DDL & stage setup
+│
+├── docs/
+│ └── architecture_diagram.png # Visual overview (to be added)
+│
+├── README.md # Project documentation
+└── requirements.txt # Python dependencies
+```
+
+---
+
+## ⚙️ Pipeline Overview
+
+1. Airflow triggers the DAG daily
+2. `fetch_news.py`:
+   - Pulls news from the NewsAPI
+   - Cleans and formats the data
+   - Saves as a `.parquet` file
+   - Uploads to AWS S3
+3. Snowpipe listens to S3 and ingests the Parquet file into Snowflake
+4. Airflow triggers SnowflakeOperator SQL tasks:
+   - Creates staging and final tables
+   - Populates summary tables (`summary_news`, `author_activity`)
+
+---
+
+## 📝 SQL Logic (in Snowflake)
+
+- Create stage using S3
+- Auto-create table using `INFER_SCHEMA`
+- Load data using `COPY INTO`
+- Create summary tables:
+  - `summary_news`: article count per news source
+  - `author_activity`: article count per author
+
+
+
 
