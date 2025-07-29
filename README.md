@@ -27,18 +27,20 @@ This project builds an automated, event-driven data pipeline that fetches news a
 event-driven-snowflake-data-pipeline/
 │
 ├── dags/
-│ └── news_api_airflow_job.py # Airflow DAG file
+│ └── news_api_airflow_job.py 
 │
 ├── scripts/
-│ └── fetch_news.py # API fetch and upload to S3
-│ └── snowflake_commands.sql # DDL & stage setup
-│ └── requirements.txt # Python dependencies
+│ └── fetch_news.py 
+│ └── snowflake_commands.sql 
+│ └── requirements.txt
 │
 ├── docs/
-│ └── architecture_diagram.png 
-│
+│ └── architecture_diagram.png
+│ └── how_to_run.md
+│ └── project_demo_video.mp4
+│ └── airfloe_dag_image.png
+│ 
 ├── README.md 
-
 ```
 
 ---
@@ -66,6 +68,28 @@ event-driven-snowflake-data-pipeline/
 - Create summary tables:
   - `summary_news`: article count per news source
   - `author_activity`: article count per author
+
+ ---
+
+## Resources
+
+The following resources are available in the `docs/` folder of this repository:
+
+- 🧱 **Architecture Diagram** – High-level visual of the data pipeline architecture
+- 📸 **Airflow DAG Screenshot** – Visual representation of the DAG execution flow
+- 🛠️ **HOW_TO_RUN.md** – Step-by-step instructions to set up and run this project locally
+- 🎥 **DEMO_VIDEO_LINK.md** – Link to the project demo video
+
+> You can open the [`docs/`](./docs) folder to view all attached guides and visual assets.
+
+--- 
+
+ ## 👨‍💻 Author
+
+**Varshith Chilagani**  
+🔗 [Linkedin Profile](www.linkedin.com/in/varshith-chilagani)
+
+
 
 
 
