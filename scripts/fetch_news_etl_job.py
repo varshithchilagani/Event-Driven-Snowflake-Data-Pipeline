@@ -6,13 +6,13 @@ import os
 import logging
 from airflow.providers.amazon.aws.hooks.s3 import S3Hook
 
-BUCKET_NAME = 'my-news-bucket-varshith'
+BUCKET_NAME = 's3 bucket name'
 TOPIC = 'apple'
 
 logging.basicConfig(level=logging.INFO)
 
 def fetch_news():
-    API_KEY = '6e153fd709bd4ad1b8074b37bd29fbe0'
+    API_KEY = 'api'
     BASE_URL = "https://newsapi.org/v2/everything"
     
     today = date.today()
