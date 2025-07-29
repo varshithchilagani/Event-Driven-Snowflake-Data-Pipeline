@@ -72,11 +72,11 @@ event-driven-snowflake-data-pipeline/
 
  ---
 
- ---
-
  ## Airflow dag graph image
 
  ![airflow_dag_image](./docs/airflow_dag_image.png)
+
+ ---
 
 ## Resources
 
