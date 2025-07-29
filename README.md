@@ -27,10 +27,10 @@ This project builds an automated, event-driven data pipeline that fetches news a
 event-driven-snowflake-data-pipeline/
 │
 ├── dags/
-│ └── news_api_airflow_job.py 
+│ └── news_pipeline_airflow_dag.py
 │
 ├── scripts/
-│ └── fetch_news.py 
+│ └── fetch_news_etl_job.py 
 │ └── snowflake_commands.sql 
 │ └── requirements.txt
 │
