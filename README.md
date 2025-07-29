@@ -37,7 +37,7 @@ event-driven-snowflake-data-pipeline/
 ├── docs/
 │ └── architecture_diagram.png
 │ └── how_to_run.md
-│ └── project_demo_video.mp4
+│ └── project_demo_video_link
 │ └── airflow_dag_image.png
 │ 
 ├── README.md 
@@ -78,7 +78,7 @@ The following resources are available in the `docs/` folder of this repository:
 - 🧱 **Architecture Diagram** – High-level visual of the data pipeline architecture
 - 📸 **Airflow DAG Screenshot** – Visual representation of the DAG execution flow
 - 🛠️ **how_to_run.md** – Step-by-step instructions to set up and run this project locally
-- 🎥 **demo_video_link** – Link to the project demo video
+- 🎥 **project_demo_video_link** – Link to the project demo video
 
 > You can open the [`docs/`](./docs) folder to view all attached guides and visual assets.
 
