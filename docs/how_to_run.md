@@ -70,7 +70,7 @@ astro deploy         # Deploy the DAG and scripts to Astronomer Airflow
 
 Once the pipeline runs successfully, the following results will be produced:
 
-✅ A Parquet file will be generated from the API response and uploaded to your AWS S3 bucket under news_data/
+✅ A Parquet file will be generated from the API response and uploaded to your AWS S3 bucket
 
 ✅ Snowpipe will detect the new file and ingest it into the news_data table in Snowflake
 
