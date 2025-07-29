@@ -1,0 +1,7 @@
+apache-airflow-providers-amazon
+apache-airflow-providers-snowflake
+
+# Python libraries you need
+pandas
+pyarrow<19.0.0
+requests
