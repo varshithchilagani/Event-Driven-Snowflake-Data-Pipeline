@@ -39,7 +39,8 @@ event-driven-snowflake-data-pipeline/
 │ └── how_to_run.md
 │ └── project_demo_video_link
 │ └── airflow_dag_image.png
-│ 
+│ └── summary_table_output.png
+│ └── author_activity_table_output.png
 ├── README.md 
 ```
 
