@@ -77,8 +77,8 @@ The following resources are available in the `docs/` folder of this repository:
 
 - 🧱 **Architecture Diagram** – High-level visual of the data pipeline architecture
 - 📸 **Airflow DAG Screenshot** – Visual representation of the DAG execution flow
-- 🛠️ **HOW_TO_RUN.md** – Step-by-step instructions to set up and run this project locally
-- 🎥 **DEMO_VIDEO_LINK.md** – Link to the project demo video
+- 🛠️ **how_to_run.md** – Step-by-step instructions to set up and run this project locally
+- 🎥 **demo_video_link** – Link to the project demo video
 
 > You can open the [`docs/`](./docs) folder to view all attached guides and visual assets.
 
