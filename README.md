@@ -91,6 +91,21 @@ The following resources are available in the `docs/` folder of this repository:
 
 --- 
 
+## 🔐 Confidential Information Notice
+
+For security reasons, this repository **does not include any real credentials or sensitive information**.
+
+The following values have been **masked, replaced, or removed** in the shared scripts:
+
+- ✅ **NewsAPI Key**
+- ✅ **AWS S3 Bucket Name**
+- ✅ **AWS IAM Role ARN**
+- ✅ **Snowflake Account & Connection Details**
+
+If you're running this project yourself, please **replace these placeholders** with your actual values. Refer to the [HOW_TO_RUN.md](./docs/how_to_run.md) file for guidance.
+
+---
+
  ## 👨‍💻 Author
 
 **Varshith Chilagani**  
