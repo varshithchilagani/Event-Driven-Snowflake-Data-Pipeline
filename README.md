@@ -71,12 +71,18 @@ event-driven-snowflake-data-pipeline/
 
  ---
 
+ ---
+
+ ## Airflow dag graph image
+
+ ![airflow_dag_image](./docs/airflow_dag_image.png)
+
 ## Resources
 
 The following resources are available in the `docs/` folder of this repository:
 
 - 🧱 **Architecture Diagram** – High-level visual of the data pipeline architecture
-- 📸 **Airflow DAG Screenshot** – Visual representation of the DAG execution flow
+- 📸 **Airflow_dag_image** – Visual representation of the DAG execution flow
 - 🛠️ **how_to_run.md** – Step-by-step instructions to set up and run this project locally
 - 🎥 **project_demo_video_link** – Link to the project demo video
 
