@@ -31,15 +31,14 @@ event-driven-snowflake-data-pipeline/
 │
 ├── scripts/
 │ └── fetch_news.py # API fetch and upload to S3
-│
-├── snowflake/
 │ └── snowflake_commands.sql # DDL & stage setup
+│ └── requirements.txt # Python dependencies
 │
 ├── docs/
-│ └── architecture_diagram.png # Visual overview (to be added)
+│ └── architecture_diagram.png 
 │
-├── README.md # Project documentation
-└── requirements.txt # Python dependencies
+├── README.md 
+
 ```
 
 ---
