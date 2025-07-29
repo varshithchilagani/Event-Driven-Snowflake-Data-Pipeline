@@ -41,10 +41,10 @@ with DAG(
         hook.load_file(
             filename=local_path,
             key=f"news_data/{filename}",
-            bucket_name="my-news-bucket-varshith",
+            bucket_name="my-s3-bucket-name",
             replace=True
         )
-        return f"s3://my-news-bucket-varshith/news_data/{filename}"
+        return f"s3://my-bucket-name/foldername/{filename}"
 
     # DAG flow
     articles = fetch_news_task()
