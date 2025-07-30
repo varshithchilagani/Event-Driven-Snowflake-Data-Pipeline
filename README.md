@@ -76,7 +76,7 @@ event-driven-snowflake-data-pipeline/
 
  ![airflow_dag_image](./docs/airflow_dag_image.png)
 
- [![watch the airflow orchestrated dag demo](https://youtu.be/wNt7pOgXprw)
+ [![watch the airflow orchestrated dag demo](https://youtu.be/wNt7pOgXprw/0.jpg)](https://youtu.be/wNt7pOgXprw)
 
  ---
 
