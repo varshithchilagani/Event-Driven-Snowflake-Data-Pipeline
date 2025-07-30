@@ -27,7 +27,7 @@ This project includes everything you need:
   `dags/news_pipeline_airflow_dag.py`
 
 - **Snowflake setup**  
-  `snowflake/snowflake_script.sql`
+  `scripts/snowflake_script.sql`
 
 All logic is modular and tied together through Airflow tasks.
 
