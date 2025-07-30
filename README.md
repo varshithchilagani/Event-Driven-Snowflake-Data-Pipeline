@@ -12,6 +12,7 @@ This project builds an automated, event-driven data pipeline that fetches news a
 - **Snowpipe** – for continuous, automated data ingestion
 - **Apache Airflow** – for pipeline scheduling and orchestration
 - **NewsAPI** – data source (news articles)
+- **Docker** – deploy Airflow locally for testing and reproducibility
 
 ---
 
