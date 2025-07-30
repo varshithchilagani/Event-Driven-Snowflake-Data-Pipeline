@@ -63,7 +63,7 @@ event-driven-snowflake-data-pipeline/
 
 ## 📝 SQL Logic (in Snowflake)
 
-- Create stage using S3
+- Create a stage using S3
 - Auto-create table using `INFER_SCHEMA`
 - Load data using `COPY INTO`
 - Create summary tables:
@@ -73,6 +73,8 @@ event-driven-snowflake-data-pipeline/
  ---
 
  ## Airflow dag graph image and demo video
+
+ The image below shows how the tasks are orchestrated in the Airflow DAG.
 
  ![airflow_dag_image](./docs/airflow_dag_image.png)
 
