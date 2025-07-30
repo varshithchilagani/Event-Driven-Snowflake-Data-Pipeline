@@ -72,6 +72,17 @@ event-driven-snowflake-data-pipeline/
 
  ---
 
+## 📊 Pipeline Execution Summary
+
+- ✅ Successfully ingested ~997 records into the raw news_data table from S3 throuh an external stage per run
+- ✅ Generated 2 transformed tables:
+  - summary_news containing 80 records
+  - author_activity containing 113 records
+- 🔁 DAG is scheduled to run daily
+- 🧱 pipeline can be easily scaled to handle larger datasets (e.g., 50K+ records) with minimal config changes
+
+ ---
+
  ## Airflow dag graph image and demo video
 
  The image below shows how the tasks are orchestrated in the Airflow DAG.
@@ -82,7 +93,7 @@ event-driven-snowflake-data-pipeline/
 
  [![watch the airflow orchestrated dag demo](https://img.youtube.com/vi/wNt7pOgXprw/0.jpg)](https://youtu.be/wNt7pOgXprw)
 
- ---
+---
 
 ## Resources
 
@@ -109,17 +120,6 @@ The following values have been **masked, replaced, or removed** in the shared sc
 -  **Snowflake Account & Connection Details**
 
 If you're running this project yourself, please **replace these placeholders** with your actual values. Refer to the [HOW_TO_RUN.md](./docs/how_to_run.md) file for guidance.
-
----
-
-## 📊 Pipeline Execution Summary
-
-- ✅ Successfully ingested ~997 records into the raw news_data table from S3 throuh an external stage
-- ✅ Generated 2 transformed tables:
-  - summary_news containing 80 records
-  - author_activity containing 113 records
-- 🔁 DAG is scheduled to run daily
-- 🧱 pipeline can be easily scaled to handle larger datasets (e.g., 50K+ records) with minimal config changes
 
 ---
 
