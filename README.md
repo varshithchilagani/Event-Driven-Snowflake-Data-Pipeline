@@ -112,6 +112,17 @@ If you're running this project yourself, please **replace these placeholders** w
 
 ---
 
+## 📊 Pipeline Execution Summary
+
+- ✅ Successfully ingested ~997 records into the raw news_data table from S3 throuh an external stage
+- ✅ Generated 2 transformed tables:
+  - summary_news containing 80 records
+  - author_activity containing 113 records
+- 🔁 DAG is scheduled to run daily
+- 🧱 pipeline can be easily scaled to handle larger datasets (e.g., 50K+ records) with minimal config changes
+
+---
+
  ## 👨‍💻 Author
 
 **Varshith Chilagani**  
