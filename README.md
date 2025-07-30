@@ -39,7 +39,7 @@ event-driven-snowflake-data-pipeline/
 │ └── how_to_run.md
 │ └── project_demo_video_link
 │ └── airflow_dag_image.png
-│ └── summary_news_output.png
+│ └── summary_news_table_output.png
 │ └── author_activity_table_output.png
 ├── README.md 
 ```
@@ -49,7 +49,7 @@ event-driven-snowflake-data-pipeline/
 ## ⚙️ Pipeline Overview
 
 1. Airflow triggers the DAG daily
-2. `fetch_news.py`:
+2. `fetch_news_etl_job.py`:
    - Pulls news from the NewsAPI
    - Cleans and formats the data
    - Saves as a `.parquet` file
@@ -82,10 +82,10 @@ event-driven-snowflake-data-pipeline/
 
 The following resources are available in the `docs/` folder of this repository:
 
-- 🧱 **Architecture Diagram** – High-level visual of the data pipeline architecture
-- 📸 **Airflow_dag_image** – Visual representation of the DAG execution flow
-- 🛠️ **how_to_run.md** – Step-by-step instructions to set up and run this project locally
-- 🎥 **project_demo_video_link** – Link to the project demo video
+-  **Architecture Diagram** – High-level visual of the data pipeline architecture
+-  **Airflow_dag_image** – Visual representation of the DAG execution flow
+-  **how_to_run.md** – Step-by-step instructions to set up and run this project locally
+-  **project_demo_video_link** – Link to the project demo video
 
 > You can open the [`docs/`](./docs) folder to view all attached guides and visual assets.
 
@@ -97,10 +97,10 @@ For security reasons, this repository **does not include any real credentials or
 
 The following values have been **masked, replaced, or removed** in the shared scripts:
 
-- ✅ **NewsAPI Key**
-- ✅ **AWS S3 Bucket Name**
-- ✅ **AWS IAM Role ARN**
-- ✅ **Snowflake Account & Connection Details**
+-  **NewsAPI Key**
+-  **AWS S3 Bucket Name**
+-  **AWS IAM Role ARN**
+-  **Snowflake Account & Connection Details**
 
 If you're running this project yourself, please **replace these placeholders** with your actual values. Refer to the [HOW_TO_RUN.md](./docs/how_to_run.md) file for guidance.
 
