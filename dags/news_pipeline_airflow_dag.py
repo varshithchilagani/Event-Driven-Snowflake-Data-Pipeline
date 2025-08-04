@@ -36,7 +36,7 @@ with DAG(
         local_path = f"/tmp/{filename}"
         df.to_parquet(local_path)
 
-        # ✅ Upload to S3 using S3Hook
+        # Upload to S3 using S3Hook
         hook = S3Hook(aws_conn_id="aws_conn")
         hook.load_file(
             filename=local_path,
@@ -109,3 +109,4 @@ with DAG(
 
 # Task dependencies
 parquet_path >> create_table >> copy_into_table >> [create_summary, create_author_activity]
+
